@@ -2,6 +2,10 @@
 <!DOCTYPE html>
 <html>
 <head>
+
+
+
+
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -29,7 +33,7 @@
     <br>
     <input type="text" name="rental_rate" placeholder="Vuokrahinta(€)" required>
     <br>
-    <input type="text" name="length" placeholder="Pituus(min)">
+    <input type="text" name="length" placeholder="Pituus(min)">git fetch --prune
     <br>
     <input type="text" name="replacement_cost" placeholder="Korvaushinta(€)" required>
     <br>
