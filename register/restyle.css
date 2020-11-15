@@ -18,6 +18,11 @@
     border-radius: 10px 10px 0px 0px;
     padding: 20px;
   }
+
+  nav{
+    font-family: "Montserrat";
+  }
+
   body {
     font-family:Arial, Sans-Serif;
 }
@@ -38,6 +43,7 @@ a:hover{
 .form{
     width: 300px;
     margin: 0 auto;
+    margin-bottom: 60px;
 }
 input[type='text'], input[type='email'],
 input[type='password'] {
@@ -52,7 +58,7 @@ input[type='password'] {
 input[type='submit']{
     padding: 10px 25px 8px;
     color: #fff;
-    background-color: #0067ab;
+    background-color: #FFC0CB;
     text-shadow: rgba(0,0,0,0.24) 0 1px 0;
     font-size: 16px;
     box-shadow: rgba(255,255,255,0.24) 0 2px 0 0 inset,#fff 0 1px 0 0;
@@ -62,5 +68,33 @@ input[type='submit']{
     cursor:pointer;
 }
 input[type='submit']:hover {
-    background-color: #024978;
+    background-color: #FF1493;
 }
+
+.jumbotron{
+    font-family: "Montserrat";
+    color: white;
+    background-color: pink;
+    }
+
+.jumbotron a h1{
+     color: white;
+}
+
+ footer{
+    background-color: #FFC0CB;
+    color: white;
+  }
+  
+  footer a{
+    color: white;
+  }
+
+  .form h1{
+      color: #FFC0CB;
+  }
+
+  .form p{
+      color: #FFC0CB;
+  }
+
